@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #080808;
+    color:#000000;
+
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.png );
+    background-size: cover;
+    background-position: center;
+
+}
+
+.box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.large-text {
+    font-family: 'Lucida Calligraphy', cursive;
+    font-size: 36px; /* Adjust the font size */
+    color: #6b5b95; /* Aesthetic color */
+}
+.home-image {
+    border-radius: 50%;
+    width: 200%;
+    height: 200%;
+    object-fit: cover;
+    border: 5px solid #7e767c;
+}
+.custom-shape-divider-top-1695863795 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cca5c0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+.address {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.address i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.address p {
+    margin: 0;
+}
+
+.address a {
+    color: #0066cc;
+    text-decoration: underline;
+}
+/* Add these styles to your existing CSS */
+#video p a {
+    text-decoration: none;
+    font-size: 2opx; /* Adjust the font size */
+    text-decoration: underline;
+    color: #ff0000; /* Red color, adjust to your preference */
+    border: none; /* Remove border */
+}
+
+#video p a:hover {
+    color: #ff5500; /* Color change on hover, adjust to your preference */
+}
+
+#video p a i {
+    font-size: 20px; /* Adjust the icon size */
+    margin-right: 10px; /* Add some space between the icon and text */
+}
+
+
+
+
+/* Navigation styles */
+nav {
+    background-color: #e09cc6;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+    position: relative; /* Position relative for pseudo-element */
+}
+
+nav a {
+    color: rgb(247, 240, 240);
+    text-decoration: none;
+    position: relative; /* Position relative for pseudo-element */
+}
+
+nav a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(133, 5, 5);
+    transition: width 0.3s ease; /* Animation for the colored line */
+}
+
+nav a:hover::before, /* Hover effect */
+nav a:focus::before, /* Focus effect */
+nav a:active::before { /* Active (click) effect */
+    width: 100%;
+}
+/* About Me section styling */
+#about {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px; /* Adjust the font size as needed */
+    line-height: 1.6; /* Adjust line height for better readability */
+    text-align: justify;
+}
+
+#about h2 {
+    font-size: 24px; /* Adjust the heading font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#about p {
+    margin-bottom: 10px;
+}
+
+
+/* Content styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #7e767c;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #a73aa7;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #777;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #3498db;
+    border-radius:
+}
+
+#skills {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#skills h2 {
+    font-size: 24px; /* Adjust the heading font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    border: 1px solid #ccc; /* Add a border around each skill */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#skills li:last-child {
+    margin-bottom: 0; /* Remove margin for the last skill to avoid extra spacing */
+}
+/* Add these styles for the Hobbies section */
+#hobbies {
+    border: 2px solid #3498db; /* Border style */
+    padding: 20px; /* Add some padding */
+    font-family: 'Courier New', monospace; /* Use typewriter font */
+}
+
+#hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#hobbies li {
+    padding: 10px 0;
+}
+
+/* Optional: Style the list items */
+#hobbies li {
+    border: 1px solid #ccc; /* Add a border around each skill */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#hobbies li:last-child {
+    margin-bottom: 0; /* Remove border for the last item */
+}
+/* Education section styling */
+#education {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#education h2 {
+    font-size: 24px; /* Adjust the heading font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#education ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#education li {
+    border: 1px solid #ccc; /* Add a border around each education item */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#education li:last-child {
+    margin-bottom: 0; /* Remove margin for the last education item to avoid extra spacing */
+}
+
+#education li h3 {
+    font-size: 20px; /* Adjust the font size of the institution/course */
+    margin-bottom: 5px;
+}
+
+#education li p {
+    font-size: 16px; /* Adjust the font size of the details (e.g., date, location) */
+    margin: 0;
+} 
+  .certificate-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .certificate-table td {
+    border: 2px solid #3498db;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .certificate-image {
+    width: 100px; /* Adjust the width of the certificate images */
+    height: auto;
+  }
+  
+  .certificate p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .certificate a {
+    text-decoration: none;
+    color: #3498db;
+  }
+  
+  .certificate a:hover {
+    text-decoration: underline;
+  }
+
+.project a {
+    text-decoration: none;
+    color: #333;
+}
+
+.project a:hover {
+    color: #007BFF;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #550a45;
+    font-size: 36px; /* Adjust the font-size for larger icons */
+    line-height: 50px; 
+}
+
+.social-icons a:hover {
+    color: #007BFF; 
+    text-align: center;
+    margin-top: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
